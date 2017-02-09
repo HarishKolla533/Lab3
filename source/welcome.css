@@ -37,10 +37,10 @@ body{
     font-size:10px;
     font-family:"Microsoft Sans Serif";
 }
-#faceDetection,#barCodeScanner{
+#faceDetection,#AlchemySearch,#barCodeScanner{
     padding:5px;
 }
-#spanFaceDetectionHeading,#spanBarCodeHeading{
+#spanFaceDetectionHeading,#alchemy,#spanBarCodeHeading{
     font-weight:bold;
     font-size:20px;
 }

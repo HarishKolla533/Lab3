@@ -1,0 +1,45 @@
+/* app css stylesheet */
+
+.menu {
+    list-style: upper-latin;
+    margin-bottom: 2em;
+    padding: 0 0 0.5em;
+}
+
+.menu > li {
+    display: inline;
+}
+
+.menu > li:before {
+    content: "|";
+    padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+    content: "";
+    padding: 0;
+}
+
+.tblSpan
+{
+    width:200px;
+    height:auto;
+    margin:20px 20px 20px 20px;
+
+}
+.body{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logout2{
+    color: white;
+    padding-left: 40%;
+    font-family: Micro;
+    padding-top: 1.5%;
+    font-family: Microsoft sans-serif;
+    font-size:15px;
+}
+.glyphicon-off{
+    font-size:13px;
+}
